@@ -1,0 +1,66 @@
+@model MitchellVehicleSolution.Models.VehicleMakeViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Automobiles</h2>
+
+<p>
+    <b><a asp-action="Create" style="color:#651fff" class="btn btn-default" >Create New</a></b>
+</p>
+
+<form asp-controller="Vehicles" asp-action="Index" method="get">
+    <p>
+    <br>
+        Make: <select asp-for="vehicleMake" asp-items="Model.makers" >
+           <option value="" >All</option>
+        </select>
+        
+        Model: <input type="text" name="SearchString" autocomplete="off">
+        <input type="submit" value="Filter" style="color:#651fff" class="btn btn-default" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.vehicles[0].ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.vehicles[0].Year)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.vehicles[0].Make)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.vehicles[0].Model)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.vehicles) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Make)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                 <b><a asp-action="Edit" asp-route-id="@item.ID" style="color:#651fff" class="btn btn-default" >Update</a>   </b>
+                <b><a asp-action="Details" asp-route-id="@item.ID" style="color:#651fff" class="btn btn-default" >Read</a>  </b>
+              <b>  <a asp-action="Delete" asp-route-id="@item.ID" style="color:#651fff" class="btn btn-default" >Delete</a> </b>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

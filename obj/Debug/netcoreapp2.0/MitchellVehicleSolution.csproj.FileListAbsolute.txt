@@ -1,0 +1,11 @@
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/bin/Debug/netcoreapp2.0/MitchellVehicleSolution.deps.json
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/bin/Debug/netcoreapp2.0/MitchellVehicleSolution.runtimeconfig.json
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/bin/Debug/netcoreapp2.0/MitchellVehicleSolution.runtimeconfig.dev.json
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/bin/Debug/netcoreapp2.0/MitchellVehicleSolution.dll
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/bin/Debug/netcoreapp2.0/MitchellVehicleSolution.pdb
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/obj/Debug/netcoreapp2.0/MitchellVehicleSolution.csproj.CoreCompileInputs.cache
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/obj/Debug/netcoreapp2.0/MitchellVehicleSolution.AssemblyInfoInputs.cache
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/obj/Debug/netcoreapp2.0/MitchellVehicleSolution.AssemblyInfo.cs
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/obj/Debug/netcoreapp2.0/MitchellVehicleSolution.dll
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/obj/Debug/netcoreapp2.0/MitchellVehicleSolution.pdb
+/Users/gigavashakidze/Projects/MitchellVehicleSolution/obj/Debug/netcoreapp2.0/MitchellVehicleSolution.csprojResolveAssemblyReference.cache
